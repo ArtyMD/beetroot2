@@ -1,0 +1,137 @@
+/* FONTS  */
+@font-face {
+  font-family: "poppins";
+  src: url(./fonts/Poppins/Poppins-Regular.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "poppins";
+  src: url(./fonts/Poppins/Poppins-Bold.ttf);
+  font-weight: 700;
+}
+
+/* FONTS END */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins";
+  /* outline: 2px dotted orange; */
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100vw;
+  background-color: #fff;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100vw;
+  max-width: 1400px;
+  padding: 50px 140px;
+}
+
+nav {
+  height: 78px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+nav > div {
+  width: 30%;
+}
+
+ul {
+  margin-right: 30px;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  width: 350px;
+}
+
+li {
+  /* font-family: Poppins; */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+a {
+  text-decoration: none;
+  color: #2f281e;
+}
+
+header > section {
+  display: flex;
+  width: 100%;
+}
+
+.header__block-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.header__block-left > * {
+  margin-bottom: 40px;
+}
+
+.header__block-left > h1 {
+  color: #2f281e;
+  font-family: Poppins;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 54px;
+}
+.header__block-left > p {
+  color: #544837;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; 
+  max-width:458px;/* 155.556% */
+}
+.whiteBtn {
+  background-color: #fff;
+  margin-right: 15px;
+  color: #173a56;
+  border-radius: 4px;
+  border: 1px solid #bcd0e5;
+}
+
+.orangeBtn {
+  background-color: #ff9900;
+  color: white;
+  border: none;
+}
+
+.btn {
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 10px 25px;
+}
+
+.features {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.features__heading{
+    margin-top: 100px;
+}
+.features__feature_blocks {
+    display: flex;
+}
