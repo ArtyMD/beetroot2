@@ -136,6 +136,7 @@ header > section {
 .features__feature_blocks {
   display: flex;
   justify-content: space-evenly;
+  margin: 20px;
 }
 
 .features__feature_blocks > div {
@@ -182,6 +183,9 @@ header > section {
 .heading {
   margin-bottom: 12px;
 }
+.features-block__heading {
+  margin-top: 20px;
+}
 .features-block__description {
   /* margin-bottom: 30px; */
 }
@@ -213,9 +217,9 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  padding-top: 100px;
+  padding-top: 100p;
   margin-top: 100px;
-  border-top: 1px solid rgba(188, 208, 229, 0.50);;
+  border-top: 1px solid rgba(188, 208, 229, 0.5);
 }
 
 .footer__block {
